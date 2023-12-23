@@ -23,7 +23,7 @@ if __name__ == "__main__":
     # ADD CODE TO TEST ABOVE HERE  <---------------------------------------------------------------------------
 
 
-def cumulative_cprofile(func_to_profile, num_runs, *args, **kwargs):
+def cprofile_loop(func_to_profile, num_runs, *args, **kwargs):
     pr = cProfile.Profile()
 
     pr.enable()
@@ -36,5 +36,5 @@ def cumulative_cprofile(func_to_profile, num_runs, *args, **kwargs):
 
 if __name__ == "__main__":
     # EDIT THE FOLLOWING LINE TO SPECIFY THE FUNCTION, ITS ARGS, AND THE NUMBER OF TESTS YOU WANT TO RUN <----- (2)
-    profile = cumulative_cprofile(merge, 100000, dicts)
+    profile = cprofile_loop(merge, 100000, dicts)
     profile.print_stats(sort='time')
