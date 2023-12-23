@@ -2,7 +2,7 @@ import cProfile
 
 if __name__ == "__main__":
 
-    # ADD CODE TO TEST BELOW HERE <--------------------------------------------------------------------------- (1)
+    # REPLACE CODE BELOW WITH CODE YOU WANT TO TEST <--------------------------------------------------------- (1)
 
     dicts = [{"A": 1, "B": 2, "C": 3}, {"A": 4, "D": 5}, {"A": 1, "B": 2, "C": 3}]
 
