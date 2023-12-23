@@ -1,5 +1,5 @@
 # how_fast_is_this_code
-A cProfile loop and performance counter average loop over a specified number of tests. Copy-paste code and run to get some idea of its performance.
+A cProfile loop and performance counter average loop over a specified number of tests. Copy-paste code or call elsewhere to get some idea of a functions performance.
 
 cProfile loop function:
 - As arguments, it takes the function to test, the number of runs, and the functions args or kwargs if needed.
