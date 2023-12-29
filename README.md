@@ -12,3 +12,7 @@ Performance counter average function:
 - Returns average seconds 
 - It records all runs and then divides by the number of runs and presents the mean. 
 - perf_counter: https://docs.python.org/3/library/time.html
+
+Timeit average:
+- Very similar to performance counter, returns average seconds and takes the similar arguments, just another option.
+- timeit: https://docs.python.org/3/library/timeit.html
